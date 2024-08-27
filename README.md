@@ -26,12 +26,3 @@ SEO Optimization: The project includes meta tags, structured data, and other SEO
 
 Open Graph: Tags for better social media sharing
 
-
-
-
-
-
-<h3>Open Graph preview<h3>
-<img src="github/op.gif" alt="open graph gif" width={400} height={400}>
-
-
