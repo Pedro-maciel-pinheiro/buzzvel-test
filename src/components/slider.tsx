@@ -10,7 +10,7 @@ import { useTranslations } from "next-intl";
 export const Slider = () => {
   const slideRef = useRef<HTMLDivElement | null>(null);
   const [constraint, setConstraint] = useState(0);
-  const [userClick, setUserClick] = useState(false);
+
   const t = useTranslations("portfolio_buzzvel");
 
   useEffect(() => {
@@ -22,12 +22,7 @@ export const Slider = () => {
   }, []);
 
   return (
-    <motion.div
-      onDragStart={() => setUserClick(true)}
-      onDragEnd={() => setUserClick(false)}
-      ref={slideRef}
-      className="h-full w-full overflow-hidden p-8"
-    >
+    <motion.div ref={slideRef} className="h-full w-full overflow-hidden p-8">
       <motion.ul
         drag={"x"}
         dragConstraints={{ right: 0, left: constraint }}
@@ -41,7 +36,7 @@ export const Slider = () => {
             variants={fadeInSlider}
             viewport={{ once: true }}
             custom={index}
-            className="min-w-[420px] rounded-lg shadow-lg shadow-cyan-400 cursor-grab"
+            className="min-w-[420px] cursor-grab rounded-lg shadow-lg shadow-cyan-400"
           >
             <div className="">
               <Image
@@ -61,12 +56,7 @@ export const Slider = () => {
                 {t(project.tag)}
               </p>
               <p className="font-medium text-gray-600">{t(project.subtitle)}</p>
-              <Link
-                href={project.href}
-                draggable={false}
-                target="blank"
-                className={`pointer-events-${userClick ? "none" : "auto"}`}
-              >
+              <Link href={project.href} draggable={false} target="blank">
                 <button className="absolute bottom-0 right-0 z-10 mx-2 my-2 h-12 w-12 rounded-full bg-black text-cyan-400 transition-all duration-300 hover:scale-105">
                   <BiChevronRight
                     size={45}

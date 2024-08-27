@@ -10,7 +10,7 @@ export default function ProjectSlider() {
     <section
       ref={ref}
       id="slideshow"
-      className="flex scroll-m-20 md:scroll-m-5 md:min-h-screen w-full max-w-[90%] flex-col items-center justify-center"
+      className="flex scroll-m-28 md:scroll-m-5 md:min-h-screen w-full max-w-[90%] flex-col items-center justify-center"
     >
       <SectionHeading heading={"title_slides"} />
 

@@ -9,7 +9,7 @@ export default function BuzzvelPage() {
     <section
       ref={ref}
       id="buzzvel"
-      className="container mb-16 mt-16 flex h-auto scroll-mt-64 flex-col items-center justify-center"
+      className="container mb-16 mt-16 flex h-auto scroll-m-16 md:scroll-mt-96 flex-col items-center justify-center"
     >
       <SectionHeading heading={"title_why_buzzvel"} />
       <div className="mb-16 mt-16 flex max-w-[90%] flex-col items-center justify-center gap-4 md:mb-0">
