@@ -11,11 +11,11 @@ export const siteMetadata: Metadata = {
   openGraph: {
     title: "Pedro | Buzzvel Test",
     description: "Discover Pedro's test page for Buzzvel, showcasing expertise in modern web development.",
-    url: "https://your-domain.com", 
+    url: "https://buzzvel-test-five.vercel.app/pt", 
     type: "website",
     images: [
       {
-        url: "public/img/op-image.png", 
+        url: "/img/op-image.png", 
         width: 1200,
         height: 630,
         alt: "Pedro | Buzzvel Test Image",
@@ -27,7 +27,7 @@ export const siteMetadata: Metadata = {
     card: "summary_large_image",
     title: "Pedro | Buzzvel Test",
     description: "Discover Pedro's test page for Buzzvel, showcasing expertise in modern web development.",
-    images: "public/img/op-image.png", 
+    images: "/img/op-image.png", 
   },
 
   
