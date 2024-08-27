@@ -75,7 +75,7 @@ export const Skill_data = [
     href: "https://ui.shadcn.com/",
   },
   {
-    skill_name: "Framer Motion",
+    skill_name: "Framer",
     icon: React.createElement(SiFramer),
     href: "https://www.framer.com/motion/",
   },

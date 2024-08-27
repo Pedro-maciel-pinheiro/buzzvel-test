@@ -185,7 +185,7 @@ export function slideInFromBottom(delay: number) {
   };
 }
 
-export const fadeInDataIndex = {
+export const fadeInCareer = {
   hidden: {
     opacity: 0,
     y: 100,
@@ -203,6 +203,26 @@ export const fadeInDataIndex = {
     },
   }),
 };
+
+export const fadeInFromX = {
+  hidden: {
+    opacity: 0,
+    x: 100,
+  },
+
+  visible: (index: number ) => ({
+    opacity: 1,
+    x: 0,
+    transition: {
+      delay: 0.6 * index,
+      type: "spring",
+      stiffness: 2,
+      damping: 2,
+      mass: 0.2,
+    },
+  }),
+};
+
 export const fadeInSlider = {
   hidden: {
     opacity: 0,
@@ -213,10 +233,10 @@ export const fadeInSlider = {
     opacity: 1,
     x: 0,
     transition: {
-      delay: 0.3 * index,
+      delay: 0.1 * index,
       type: "spring",
-      stiffness: 20,
-      damping: 10,
+      stiffness: 5,
+      damping: 5,
       mass: 0.5,
     },
   }),
@@ -234,9 +254,9 @@ export const fadeInSkills = {
     transition: {
       delay: 0.2 * index,
       type: "spring",
-      stiffness: 10,
-      damping: 5,
-      mass: 0.5,
+      stiffness: 2,
+      damping: 1,
+      mass: 0.2,
     },
   }),
 };

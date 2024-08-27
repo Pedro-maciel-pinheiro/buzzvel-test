@@ -8,52 +8,52 @@ import project_image_7 from "@/assets/portfolio-7.webp";
 
 export const portfolio_buzzvel = [
   {
-    title: "DBS",
-    tag: "Health",
-    subtitle:
-      "We built this platform and APP that allowed primary users to track medical tests.",
+    title: "title_1",
+    tag: "tag_1",
+    subtitle: "subtitle_1",
     image: project_image_1,
+    href: "https://buzzvel.com/portfolio/dbs",
   },
   {
-    title: "Traquinices",
-    tag: "Retail",
-    subtitle:
-      "Traquinices is a company that was born in Portugal in 1996. It specializes in the distribution of premium Childcare products to provide the best satisfaction to customers.",
+    title: "title_2",
+    tag: "tag_2",
+    subtitle: "subtitle_2",
     image: project_image_2,
+    href: "https://buzzvel.com/portfolio/traquinices",
   },
   {
-    title: "Viplant",
-    tag: "E-commerce",
-    subtitle:
-      "We created a new website for VIPLANT with the main aim of enhancing the user experience, extending the quality of the physical purchase to the digital environment.",
+    title: "title_3",
+    tag: "tag_3",
+    subtitle: "subtitle_3",
     image: project_image_3,
+    href: "https://buzzvel.com/portfolio/viplant",
   },
   {
-    title: "Hotspotty",
-    tag: "SaaS Software in Healium NetWork",
-    subtitle:
-      "An innovative All-in-One platform to plan, manage and optimize decentralized networks such as the global Helium network for the Internet of Things.",
+    title: "title_4",
+    tag: "tag_4",
+    subtitle: "subtitle_4",
     image: project_image_4,
+    href: "https://buzzvel.com/portfolio/hotspotty",
   },
   {
-    title: "Coma ou Leve",
-    tag: "Restaurant Chain Software",
-    subtitle:
-      "An original concept, on the market since 1976. Meals ready to eat, with a history that stay in the memory of those who visit them.",
+    title: "title_5",
+    tag: "tag_5",
+    subtitle: "subtitle_5",
     image: project_image_5,
+    href: "https://buzzvel.com/portfolio/coma-ou-leve",
   },
   {
-    title: "Vigias da Arriba",
-    tag: "Luxury Real State Microsite",
-    subtitle:
-      "Vigias da Arriba is a luxury, unique and exclusive condominium with several villas with a superb sea view. It is located in Torres Vedras.",
+    title: "title_6",
+    tag: "tag_6",
+    subtitle: "subtitle_6",
     image: project_image_6,
+    href: "https://buzzvel.com/portfolio/vigias-da-arriba",
   },
   {
-    title: "ThinkFeridas",
-    tag: "Health Wound App",
-    subtitle:
-      "ThinkFeridas is an application that responds to the need of many health professionals who work alone in the clinical decision regarding treating complex wounds.",
+    title: "title_7",
+    tag: "tag_7",
+    subtitle: "subtitle_7",
     image: project_image_7,
+    href: "https://buzzvel.com/portfolio/thinkferidas",
   },
 ] as const;

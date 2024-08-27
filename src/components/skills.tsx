@@ -7,7 +7,7 @@ import React from "react";
 export const Skills = () => {
   return (
     <section className="mx-auto mb-0 mt-6 h-auto w-full max-w-4xl">
-      <ul className="grid grid-cols-3 items-center justify-center gap-6 md:grid-cols-5">
+      <ul className="grid grid-cols-3 md:flex md:flex-wrap items-center justify-center gap-6 ">
         {Skill_data.map((skill, index) => (
           <motion.li
             key={skill.skill_name}

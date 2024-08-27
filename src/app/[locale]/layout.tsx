@@ -5,13 +5,14 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { NavigationBar } from "@/components/navigation/navigation";
 import ActiveSectionProvider from "@/context/active-section-context";
+import Footer from "@/components/footer/footer";
+import { siteMetadata } from "@/constants/open-graph";
+
 
 const anek = Anek_Devanagari({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Pedro | Buzzvel test",
-  description: "my test",
-};
+export const metadata: Metadata = siteMetadata
+ 
 
 export default async function RootLayout({
   children,
@@ -28,6 +29,7 @@ export default async function RootLayout({
           <NextIntlClientProvider messages={messages}>
             <NavigationBar />
             {children}
+            <Footer/>
           </NextIntlClientProvider>
         </ActiveSectionProvider>
       </body>

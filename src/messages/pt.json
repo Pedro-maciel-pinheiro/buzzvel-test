@@ -4,5 +4,117 @@
     "text-h2": "Sou Pedro Maciel",
     "text-h3": "um desenvolvedor Front-end",
     "text-p": "Transformando ideias em realidade digital"
+  },
+
+  "section-header-text": {
+    "title_experience": "Minhas Experiências",
+    "title_skill": "Minhas Habilidades",
+    "title_slides": "Slides de Projetos",
+    "title_career": "Minha Carreira na Buzzvel",
+    "title_why_buzzvel":"Por que Buzzvel"
+  },
+
+  "nav": {
+    "link_1": "Início",
+    "link_2": "Sobre",
+    "link_3": "Buzzvel",
+    "link_4": "Slides",
+    "link_5": "Carreira"
+  },
+  "experience": {
+    "title_1": "Transição de Carreira",
+    "description_1": "Comecei minha transição de carreira de técnico em informática para web designer",
+
+    "title_2": "Web Designer",
+    "description_2": "Passei um ano como web designer freelancer antes de migrar para o desenvolvimento front-end, unindo minhas habilidades de design com expertise técnica",
+
+    "title_3": "Desenvolvedor Front-End",
+    "description_3": "Atualmente sou desenvolvedor Front-End trabalhando como freelancer. Minha stack inclui React, Next.js, TypeScript, Tailwind CSS e Framer Motion. Estou aberto a oportunidades em tempo integral."
+  },
+
+  "buzzvel_statements": {
+    "title_1": "Paixão pela Inovação",
+    "description_1": "No site da Buzzvel, você pode explorar todos os projetos nos quais eles trabalharam. Como desenvolvedor, estou realmente empolgado com a oportunidade de contribuir para uma empresa com um portfólio de projetos tão diversificado e impressionante!",
+
+    "title_2": "Oportunidade de carreira",
+    "description_2": "Oferece um ambiente onde posso continuar aprendendo e desenvolvendo minhas habilidades, afinal a Buzzvel utiliza as tecnologias de front-end mais importantes, como React, React Native, Next.js e Tailwind.",
+
+    "title_3": "Empresa Internacional",
+    "description_3": "A Buzzvel foi a primeira empresa que me deu a oportunidade de sonhar em trabalhar em uma empresa internacional e sempre me lembrarei disso."
+  },
+
+  "career_progression": {
+
+  "title_header_1": "Fundação e Integração",
+
+  "date_1": "Ano 1",
+
+  "title_1": "Integração",
+  "description_1": "Familiarize-se com os processos, ferramentas e equipe da Buzzvel.",
+
+  "title_2": "Mentoria",
+  "description_2": "Trabalhe de perto com um desenvolvedor sênior.",
+
+  "title_3": "Contribuições Iniciais",
+  "description_3": "Assuma pequenas tarefas e aprenda os padrões de codificação da empresa.",
+
+
+  "title_header_2": "Crescimento e Aumento de Responsabilidade",
+
+  "date_2": "Ano 2-3",
+
+  "title_4": "Liderança de Projetos",
+  "description_4": "Lidere projetos de pequeno a médio porte.",
+
+  "title_5": "Desenvolvimento de Habilidades",
+  "description_5": "Domine conceitos avançados e possivelmente aprenda novas tecnologias relevantes para o stack da Buzzvel.",
+
+  "title_6": "Mentoria",
+  "description_6": "Comece a mentorar desenvolvedores juniores.",
+
+
+  "title_header_3": "Liderança e Inovação",
+
+  "date_3": "Ano 4-5",
+
+  "title_7": "Papel de Liderança",
+  "description_7": "Possivelmente assuma um papel de líder de equipe ou desenvolvedor sênior.",
+
+  "title_8": "Inovação",
+  "description_8": "Continue dominando conceitos avançados e aprenda novas tecnologias relevantes para o stack da Buzzvel.",
+
+  "title_9": "Aprendizado Contínuo",
+  "description_9": "Mantenha-se atualizado com as últimas tendências do setor e aplique-as na Buzzvel."
+},
+
+
+  "portfolio_buzzvel": {
+    "title_1": "DBS",
+    "tag_1": "Saúde",
+    "subtitle_1": "Construímos essa plataforma e APP que permitiram aos usuários principais acompanhar exames médicos.",
+
+    "title_2": "Traquinices",
+    "tag_2": "Varejo",
+    "subtitle_2": "A Traquinices é uma empresa que nasceu em Portugal em 1996. Especializa-se na distribuição de produtos premium de puericultura para proporcionar a melhor satisfação aos clientes.",
+
+    "title_3": "Viplant",
+    "tag_3": "E-commerce",
+    "subtitle_3": "Criamos um novo site para a VIPLANT com o objetivo principal de melhorar a experiência do usuário, estendendo a qualidade da compra física para o ambiente digital.",
+
+    "title_4": "Hotspotty",
+    "tag_4": "SaaS Software na Rede Healium",
+    "subtitle_4": "Uma plataforma inovadora All-in-One para planejar, gerenciar e otimizar redes descentralizadas, como a rede global Helium para a Internet das Coisas.",
+
+    "title_5": "Coma ou Leve",
+    "tag_5": "Software para Rede de Restaurantes",
+    "subtitle_5": "Um conceito original, no mercado desde 1976. Refeições prontas para comer, com uma história que fica na memória de quem as visita.",
+
+    "title_6": "Vigias da Arriba",
+    "tag_6": "Microsite de Imóveis de Luxo",
+    "subtitle_6": "Vigias da Arriba é um condomínio de luxo, único e exclusivo com várias vilas com vista soberba para o mar. Está localizado em Torres Vedras.",
+
+    "title_7": "ThinkFeridas",
+    "tag_7": "App de Saúde para Feridas",
+    "subtitle_7": "ThinkFeridas é uma aplicação que responde à necessidade de muitos profissionais de saúde que trabalham sozinhos na decisão clínica em relação ao tratamento de feridas complexas."
   }
 }

@@ -4,23 +4,41 @@
 
 html {
   --line-color: #fff;
-}
-
-* {
   scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar {
-  display: none;
+
+
+/* scroll bar */
+
+*::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 5px; 
 }
 
+*::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00f0f8;
+  border-radius: 15px;
+  border: 1px solid #3d3d3d;
+}
+
+/* timeline */
+
 .timeline {
-  width: 80%;
+  width: 90%;
   height: auto;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   position: relative;
 }
+
+
+/* circle animation */
 
 @media only screen and (min-width: 768px) {
   .timeline::before {
@@ -28,7 +46,7 @@ html {
     position: absolute;
     height: 100%;
     width: 3px;
-    background-color: aqua;
+    background-color: #00f0f8;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 15px;
@@ -44,32 +62,12 @@ html {
     float: left;
     clear: right;
     border-radius: 10px 0px 10px 10px;
-   
   }
   .timeline ul li:nth-child(even) {
     float: right;
     clear: left;
     border-radius: 0px 10px 10px 10px;
   }
-
-  /* .timeline ul li::after {
-    content: "";
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    background-color: rgb(1, 130, 243);
-    border-radius: 50%;
-    top: 0;
-  }
-
-  .timeline ul li:nth-child(odd)::after{
-    transform: translate(50% ,-50%);
-    right: -35px;
-  }
-  .timeline ul li:nth-child(even)::after{
-    transform: translate(-50% ,-50%);
-    left: -35px;
-  } */
 }
 
 .circle {

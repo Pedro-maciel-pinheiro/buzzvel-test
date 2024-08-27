@@ -4,5 +4,121 @@
     "text-h2": "I'm Pedro Maciel",
     "text-h3": "a Front-end developer",
     "text-p": "Transforming ideas into digital reality"
+  },
+
+  "section-header-text": {
+    "title_experience": "My Experiences",
+    "title_skill": "My Skills",
+    "title_slides": "Project Slides",
+    "title_career": "My Career at Buzzvel",
+    "title_why_buzzvel": "Why Buzzvel"
+  },
+
+  "nav": {
+    "link_1": "Home",
+    "link_2": "About",
+    "link_3": "Buzzvel",
+    "link_4": "Slides",
+    "link_5": "Career"
+  },
+
+  "experience": {
+    "title_1": "Career Transition",
+    "description_1": "I began my career transition from computer technician to web designer",
+
+    "title_2": "Web Designer",
+    "description_2": "I spent a year as a freelance web designer before transitioning into front-end development to merge my design skills with technical expertise",
+
+    "title_3": "Front-End Developer",
+    "description_3": "I'm now a Front-End developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind CSS, and Framer Motion. I'm open to full-time opportunities."
+  },
+
+  "buzzvel_statements": {
+    "title_1": "Passion for Innovation",
+    "description_1": "On Buzzvel's website, you can explore all the projects they've worked on. As a developer, I am genuinely excited about the opportunity to contribute to a company with such a diverse and impressive portfolio of projects!",
+
+    "title_2": "Career Opportunity",
+    "description_2": "It offers an environment where I can continue learning and developing my skills, after all, Buzzvel uses the most important front-end technologies, such as React, React Native, Next.js, and Tailwind.",
+
+    "title_3": "International Company",
+    "description_3": "Buzzvel was the first company that gave me the opportunity to dream of working in an international company, and I will always remember that."
+  },
+
+  "portfolio_buzzvel": {
+    "title_1": "DBS",
+    "tag_1": "Health",
+    "subtitle_1": "We built this platform and APP that allowed primary users to track medical tests.",
+
+    "title_2": "Traquinices",
+    "tag_2": "Retail",
+    "subtitle_2": "Traquinices is a company that was born in Portugal in 1996. It specializes in the distribution of premium Childcare products to provide the best satisfaction to customers.",
+
+    "title_3": "Viplant",
+    "tag_3": "E-commerce",
+    "subtitle_3": "We created a new website for VIPLANT with the main aim of enhancing the user experience, extending the quality of the physical purchase to the digital environment.",
+
+    "title_4": "Hotspotty",
+    "tag_4": "SaaS Software in Healium NetWork",
+    "subtitle_4": "An innovative All-in-One platform to plan, manage and optimize decentralized networks such as the global Helium network for the Internet of Things.",
+
+    "title_5": "Coma ou Leve",
+    "tag_5": "Restaurant Chain Software",
+    "subtitle_5": "An original concept, on the market since 1976. Meals ready to eat, with a history that stays in the memory of those who visit them.",
+
+    "title_6": "Vigias da Arriba",
+    "tag_6": "Luxury Real Estate Microsite",
+    "subtitle_6": "Vigias da Arriba is a luxury, unique and exclusive condominium with several villas with a superb sea view. It is located in Torres Vedras.",
+
+    "title_7": "ThinkFeridas",
+    "tag_7": "Health Wound App",
+    "subtitle_7": "ThinkFeridas is an application that responds to the need of many health professionals who work alone in the clinical decision regarding treating complex wounds."
+  },
+
+  "career_progression": {
+
+    "title_header_1": "Foundation and Integration",
+
+     "date_1": "Year 1",
+
+    "title_1": "Onboarding",
+    "description_1": "Get familiar with Buzzvel's processes, tools, and team.",
+
+    "title_2": "Mentorship",
+    "description_2": "Work closely with a senior developer.",
+
+    "title_3": "Initial Contributions",
+    "description_3": "Take on small tasks and learn the company's coding standards.",
+ 
+
+    "title_header_2": "Growth and Increased Responsibility",
+
+     "date_2": "Year 2-3",
+
+    "title_4": "Project Ownership",
+    "description_4": "Lead small to medium-sized projects",
+
+    "title_5": "Skill Development",
+    "description_5": "Master advanced concepts and possibly learn new technologies relevant to Buzzvel's stack.",
+
+    "title_6": "Mentorship",
+    "description_6": "Start mentoring junior developers.",
+
+
+
+    "title_header_3": "Leadership and Innovation",
+
+    "date_3": "Year 4-5",
+
+    "title_7": "Leadership Role",
+    "description_7": "Potentially step into a team lead or senior developer role.",
+
+    "title_8": "Innovation",
+    "description_8": "Master advanced concepts and possibly learn new technologies relevant to Buzzvel's stack.",
+
+    "title_9": "Continuous Learning",
+    "description_9": "Stay updated with the latest industry trends and apply them at Buzzvel."
+
   }
+
+
 }

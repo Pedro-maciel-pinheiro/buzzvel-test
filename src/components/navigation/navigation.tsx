@@ -7,11 +7,12 @@ import React, { useEffect, useState } from "react";
 import LanguageSelector from "../language/language-selector";
 import { Squash as Hamburger } from "hamburger-react";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { useTranslations } from "next-intl";
 
 export const NavigationBar = () => {
-  const { activeSection, setActiveSection, setTimeOfLastClick } =
-    useActiveSectionContext();
-
+  const { activeSection, setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+    
+  const t = useTranslations("nav")
   const [navScroll, setNavScroll] = useState(false);
   const [navIsOpen, setNavIsOpen] = useState(false);
 
@@ -38,7 +39,8 @@ export const NavigationBar = () => {
 
   return (
     <>
-      <nav className="fixed z-20 flex h-14 w-full items-center justify-center text-white backdrop-blur-3xl">
+      <nav className="fixed z-20 flex h-14 w-full items-center justify-center
+       text-white bg-black">
         <div className="hidden md:block">
           <ul
             className={`flex h-10 items-center justify-center rounded-full border-2 text-lg font-medium transition-all duration-1000 ${navScroll ? "gap-8 border-white/70 bg-black px-4" : "gap-4 border-transparent px-2"}`}
@@ -48,7 +50,7 @@ export const NavigationBar = () => {
                 key={link.title}
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: index * animationDelay, duration: 2 }}
+                transition={{ delay: index * animationDelay, duration: 1.5 }}
                 className=""
                 onClick={() => setNavIsOpen(false)}
               >
@@ -60,7 +62,7 @@ export const NavigationBar = () => {
                     setTimeOfLastClick(Date.now());
                   }}
                 >
-                  {link.title}
+                  {t(link.translate)}
                   {link.title === activeSection && (
                     <motion.span
                       layoutId="activeSection"
@@ -83,18 +85,18 @@ export const NavigationBar = () => {
           className={`fixed w-full bg-black md:hidden ${navIsOpen ? "z-50" : "z-30"}`}
         >
           <button onClick={() => setNavIsOpen((prev) => !prev)}>
-            <Hamburger />
+            <Hamburger toggled={navIsOpen}/>
           </button>
 
           {navIsOpen && (
             <div className="absolute z-50 h-56 w-full rounded-lg bg-black">
-              <ul className="flex flex-col items-start justify-center p-2 text-lg">
+              <ul onClick={() => setNavIsOpen(false)} className="flex flex-col items-start justify-center p-2 text-lg">
                 {linksPath.map((item, index) => (
                   <motion.li
                     key={item.title}
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: index * animationDelay, duration: 1 }}
+                    transition={{ delay: index * animationDelay, duration: 0.3 }}
                     className="w-full border-b"
                   >
                     <Link
